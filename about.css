@@ -1,0 +1,1701 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.head ul li
+{
+    display: inline;
+    margin: 30px;
+    
+}
+.head ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.head ul li a:hover
+{
+    color: blueviolet;
+    text-decoration: overline;
+
+}
+.head ul li a:hover::before
+{
+    content: "";
+    background-color: white;
+    bottom: 0;
+    height: 2.5px;
+    left: 0;
+    right: 100%;
+    position: absolute;
+    width: 100%;
+    transition: all;
+    transition-duration: 2s;
+}
+.head
+{
+    margin-left: 350px;
+    margin-top: 25px;
+}
+.head ul li:last-child
+{
+display: none;
+}
+.nav button
+{
+    width: 9%;
+    height:2.4em;
+    background-color: transparent;
+    border: 2px double blueviolet;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-left: 90px;
+    cursor: pointer;
+}
+.nav button a
+{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+/* .nav button:hover
+{
+    background-color: black;
+    color: white;
+}
+.nav button a:hover
+{
+    color: white;
+} */
+.nav
+{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 44px;
+}
+.nav .fa-bars
+
+{
+
+    display: none;
+
+}
+
+.container
+
+{
+
+    background-color: #080031;
+
+    padding: 1px;
+    
+
+}
+
+.borcontainer
+
+{
+
+    background-color: #080031;
+
+}
+
+.border
+
+{
+
+    height: 3px;
+    width: 95vw;
+    margin: auto;
+    background-color: blueviolet;
+    border-radius: 10px;
+
+}
+
+
+.skills h2
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #080031;
+}
+.skills h3
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #080031;
+}
+
+.figma
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.figmacon
+{
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+
+.figmacon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.photoshop
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.photoshopcon h4
+{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;    
+}
+.photoshopcon
+{
+    margin: auto;
+    text-align: center;
+    width: 25%;   
+}
+.html5
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.html5con
+{
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+.html5con h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;    
+}
+.skillset1
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 100%;
+    background-color: #080031;
+    padding-bottom: 30px;
+}
+.css3
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+
+.css3con h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.css3con
+{
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+
+.bootstrap
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+
+.bootstrapcon
+{
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+.bootstrapcon h4
+{
+  
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.js
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.jscon
+{   
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+.jscon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.skillset2
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 100%;
+    background-color: #080031;
+    padding-bottom: 30px; 
+}
+.jq
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.jqcon
+{
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+.jqcon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.react
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.reactcon
+{
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+.reactcon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.wp
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.wpcon
+{
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+.wpcon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.skillset3
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 100%;
+    background-color: #080031;
+    padding-bottom: 30px; 
+}
+
+.node
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.nodecon
+{
+    margin: auto;
+    text-align: center;
+    width: 8%;
+    /* margin-left: 350px; */
+}
+.nodecon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.mongo
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.mongocon
+{
+    margin: auto;
+    text-align: center;
+    width: 8%;
+    /* margin-right: 350px; */
+}
+.mongocon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+/* .mysql
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.mysqlcon
+{
+    margin: auto;
+    text-align: center;
+    width: 20%;
+}
+.mysqlcon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+} */
+.skillset4
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #080031;
+    padding-bottom: 30px; 
+}
+
+
+.edex h2
+{
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-size: 2em;
+    /* color: #46cdcf; */
+    /* color: #4dfbef; */
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #080031;
+}
+.edex h4
+{
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #e3cdef;
+    padding-bottom: 30px;
+    background-color: #080031;
+    /* padding-left: 100px; */
+}
+
+.contcontainer
+{
+    background-color: #080031;
+}
+.cont
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);   
+}
+.contcontainer h2
+{
+    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.fa-phone
+
+{
+
+    color: blueviolet;;
+
+    font-size: 2em;
+
+    border: 2px solid white;
+
+    border-radius: 50%;
+
+    padding: 15px;
+
+}
+.fa-phone:hover
+
+{
+
+    box-shadow: 0px 0px 15px 2px #c3e8f8;
+    text-shadow: 0 0 20px;
+    /* transform: all;
+    transition-duration: 1s; */
+}
+
+.phone h3
+
+{
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    color: #e3cdef;
+
+    font-size: 1.5em;
+
+    margin-top: 25px;
+
+    margin-left: 20px;
+
+}
+
+.phone
+
+{
+
+    display: flex;
+
+    margin-left: 100px;
+
+    padding-top: 30px;
+
+}
+
+.fa-envelope
+
+{
+
+    color: blueviolet;;
+
+    font-size: 2em;
+
+    border: 2px solid white;
+
+    border-radius: 50%;
+
+    padding: 15px;
+
+}
+.fa-envelope:hover
+{
+    box-shadow: 0px 0px 15px 2px #c3e8f8;
+    text-shadow: 0 0 20px;
+}
+
+.mail h3
+
+{
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    color: #e3cdef;
+
+    font-size: 1.5em;
+
+    margin-top: 25px;
+
+    margin-left: 20px;
+
+}
+
+.mail
+
+{
+
+    display: flex;
+
+
+    margin-top: 30px;
+
+}
+
+.fa-location-crosshairs
+
+{
+
+    color: blueviolet;;
+
+    font-size: 2em;
+
+    border: 2px solid white;
+
+    border-radius: 50%;
+
+    padding: 15px;
+
+}
+.fa-location-crosshairs:hover
+{
+    box-shadow: 0px 0px 15px 2px #c3e8f8;
+    text-shadow: 0 0 20px;
+}
+
+.address h3
+
+{
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    color: #e3cdef;
+
+    font-size: 1.5em;
+
+    margin-top: 25px;
+
+    margin-left: 20px;
+
+}
+
+.address
+
+{
+
+    display: flex;
+
+    margin-left: 100px;
+
+    margin-top: 20px;
+
+}
+
+.fa-arrow-left
+
+{
+
+    color: blueviolet;
+
+    font-size: 2em;
+
+    margin-left: 120px;
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+
+/* @keyframes ani {
+    0%
+    {
+        border:0px;
+    }
+    25%
+    {
+        border:2.5px;
+    }
+    50%
+    {
+        border:5px;
+    }
+    75%
+    {
+        border:7.5px;
+    }
+
+} */
+
+
+@media screen and (max-width:480px) and (min-width:320px){
+
+    .head
+    {
+        position: fixed;
+        right: 100vw;
+        margin-top: -6px;
+        gap:0;
+        background-color:blueviolet;
+        transition: 0.3s;
+        width: 70%;
+        height: 100vh;
+    }
+    .head ul li
+    {
+        display: block;
+        margin: 40px 40px;
+    }
+    .head ul
+    {
+        margin-top: 100px;
+    }
+    .head.active
+    {
+        right: 30vw;
+    }
+    .head ul li a
+    {
+        font-size: x-large;
+    }
+    .head ul li:last-child
+    {
+    display: block;
+    }
+    .nav button
+    {
+        display: none;
+    }
+    .nav .fa-bars
+    {
+        display: block;
+        color: white;
+        font-size: 2em;
+        margin-top: 25px;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+    .skills h2
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #080031;
+}
+.skills h3
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #080031;
+}
+
+.figma
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.figmacon
+{
+    margin: auto;
+    text-align: center;
+    width: 35%;
+}
+
+.figmacon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.photoshop
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.photoshopcon h4
+{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;    
+}
+.photoshopcon
+{
+    margin: auto;
+    text-align: center;
+    width: 35%;   
+}
+.html5
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.html5con
+{
+    margin: auto;
+    text-align: center;
+    width: 35%;
+}
+.html5con h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;    
+}
+.skillset1
+{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-row-gap: 20px;
+    width: 100%;
+    background-color: #080031;
+    padding-bottom: 30px;
+}
+.css3
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+
+.css3con h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.css3con
+{
+    margin: auto;
+    text-align: center;
+    width: 35%;
+}
+
+.bootstrap
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+
+.bootstrapcon
+{
+    margin: auto;
+    text-align: center;
+    width: 35%;
+}
+.bootstrapcon h4
+{
+  
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.js
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.jscon
+{   
+    margin: auto;
+    text-align: center;
+    width: 35%;
+}
+.jscon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.skillset2
+{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-row-gap: 20px;
+    width: 100%;
+    background-color: #080031;
+    padding-bottom: 30px; 
+}
+.jq
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.jqcon
+{
+    margin: auto;
+    text-align: center;
+    width: 35%;
+}
+.jqcon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.react
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.reactcon
+{
+    margin: auto;
+    text-align: center;
+    width: 35%;
+}
+.reactcon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.wp
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.wpcon
+{
+    margin: auto;
+    text-align: center;
+    width: 35%;
+}
+.wpcon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.skillset3
+{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-row-gap: 20px;
+    width: 100%;
+    background-color: #080031;
+    padding-bottom: 30px; 
+}
+
+.node
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.nodecon
+{
+    margin: auto;
+    text-align: center;
+    width: 35%;
+}
+.nodecon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.mongo
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.mongocon
+{
+    margin: auto;
+    text-align: center;
+    width: 35%;
+}
+.mongocon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.mysql
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.mysqlcon
+{
+    margin: auto;
+    text-align: center;
+    width: 35%;
+}
+.mysqlcon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;  
+}
+.skillset4
+{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-row-gap: 20px;
+    width: 100%;
+    background-color: #080031;
+    padding-bottom: 30px; 
+}
+
+ 
+
+
+
+
+    .edex h2
+    {
+        font-size: 1.5em;
+        color: white;
+        text-align: center;
+    }
+    .edex h4
+{
+    
+    font-size: 1em;    
+}
+    
+    .contcontainer
+
+    {
+
+    background-color: #080031;
+
+    }
+    .cont
+    {
+        display: block;
+    }
+.contcontainer h2
+{
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+    .fa-phone
+
+    {
+
+    color: blueviolet;;
+
+    font-size: 1.5em;
+
+    border: 2px solid white;
+
+    border-radius: 50%;
+
+    padding: 10px;
+
+    }
+
+    .phone h3
+
+    {
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    color: #e3cdef;
+
+    font-size: 16px;
+
+    margin-top: 19px;
+
+    margin-left: 20px;
+
+    }
+
+    .phone
+
+    {
+
+    display: flex;
+
+    margin-left: 20px;
+
+    padding-top: 20px;
+
+    }
+
+    .fa-envelope
+
+    {
+
+    color: blueviolet;;
+
+    font-size: 1.5em;
+
+    border: 2px solid white;
+
+    border-radius: 50%;
+
+    padding: 10px;
+
+    }
+
+    .mail h3
+
+    {
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    color: #e3cdef;
+
+    font-size: 16px;
+
+    margin-top: 19px;
+
+    margin-left: 20px;
+
+    }
+
+    .mail
+
+    {
+
+    display: flex;
+
+    margin-left: 20px;
+
+    margin-top: 20px;
+
+    }
+
+    .fa-location-crosshairs
+
+    {
+
+    color: blueviolet;;
+
+    font-size: 1.5em;
+
+    border: 2px solid white;
+
+    border-radius: 50%;
+
+    padding: 10px;
+
+    }
+
+    .address h3
+
+    {
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    color: #e3cdef;
+
+    font-size: 16px;
+
+    margin-top: 19px;
+
+    margin-left: 20px;
+
+    }
+
+    .address
+
+    {
+
+    display: flex;
+
+    margin-left: 20px;
+
+    margin-top: 20px;
+
+    }
+
+    .fa-arrow-left
+
+    {
+
+        color: blueviolet;
+
+        font-size: 1.5em;
+
+        margin-left: 35px;
+
+        margin-top: 50px;
+
+
+    }
+
+
+}
+
+@media screen and (max-width:768px) and (min-width:481px){
+
+    .head
+    {
+        position: fixed;
+        right: 100vw;
+        margin-top: -6px;
+        gap:0;
+        background-color:blueviolet;
+        transition: 0.3s;
+        width: 70%;
+        height: 100vh;
+    }
+    .head ul li
+    {
+        display: block;
+        margin: 40px 40px;
+    }
+    .head ul
+    {
+        margin-top: 100px;
+    }
+    .head.active
+    {
+        right: 30vw;
+    }
+    .head ul li a
+    {
+        font-size: x-large;
+    }
+    .head ul li:last-child
+    {
+    display: block;
+    }
+    .nav button
+    {
+        display: none;
+    }
+    .nav .fa-bars
+    {
+        display: block;
+        color: white;
+        font-size: 2em;
+        margin-top: 25px;
+        margin-left: 300px;
+        cursor: pointer;
+    }
+    .skills h2
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #080031;
+}
+.skills h3
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #080031;
+}
+
+.figma
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.figmacon
+{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+
+.figmacon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;
+    font-size: 20px;  
+}
+.photoshop
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.photoshopcon h4
+{
+    
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;    
+}
+.photoshopcon
+{
+    margin: auto;
+    text-align: center;
+    width: 30%;   
+}
+.html5
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.html5con
+{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+.html5con h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;
+    font-size: 20px;    
+}
+.skillset1
+{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-row-gap: 20px;
+    width: 100%;
+    background-color: #080031;
+    padding-bottom: 30px;
+}
+.css3
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+
+.css3con h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;
+    font-size: 20px; 
+}
+.css3con
+{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+
+.bootstrap
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+
+.bootstrapcon
+{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+.bootstrapcon h4
+{
+  
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;
+    font-size: 20px;  
+}
+.js
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.jscon
+{   
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+.jscon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;
+    font-size: 20px;  
+}
+.skillset2
+{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-row-gap: 20px;
+    width: 100%;
+    background-color: #080031;
+    padding-bottom: 30px; 
+}
+.jq
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.jqcon
+{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+.jqcon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;
+    font-size: 20px;  
+}
+.react
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.reactcon
+{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+.reactcon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;
+    font-size: 20px;  
+}
+.wp
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.wpcon
+{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+.wpcon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.skillset3
+{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-row-gap: 20px;
+    width: 100%;
+    background-color: #080031;
+    padding-bottom: 30px; 
+}
+
+.node
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.nodecon
+{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+.nodecon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;
+    font-size: 20px;  
+}
+.mongo
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.mongocon
+{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+.mongocon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.mysql
+{
+    border: 10px inset blueviolet;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #e3cdef;
+}
+.mysqlcon
+{
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+.mysqlcon h4
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #e3cdef;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.skillset4
+{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    grid-row-gap: 20px;
+    width: 100%;
+    background-color: #080031;
+    padding-bottom: 30px; 
+}
+
+ 
+
+
+
+
+    .edex h2
+    {
+        font-size: 2em;
+        color: white;
+        text-align: center;
+    }
+    .edex h4
+{
+    
+    font-size: 1.5em;    
+}
+    
+    .contcontainer
+
+    {
+
+    background-color: #080031;
+
+    }
+    .cont
+    {
+        display: block;
+    }
+.contcontainer h2
+{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+    .fa-phone
+
+    {
+
+    color: blueviolet;;
+
+    font-size: 1.5em;
+
+    border: 2px solid white;
+
+    border-radius: 50%;
+
+    padding: 10px;
+
+    }
+
+    .phone h3
+
+    {
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    color: #e3cdef;
+
+    font-size: 1.5em;
+
+    margin-top: 19px;
+
+    margin-left: 20px;
+
+    }
+
+    .phone
+
+    {
+
+    display: flex;
+
+    margin-left: 20px;
+
+    padding-top: 20px;
+
+    }
+
+    .fa-envelope
+
+    {
+
+    color: blueviolet;;
+
+    font-size: 1.5em;
+
+    border: 2px solid white;
+
+    border-radius: 50%;
+
+    padding: 10px;
+
+    }
+
+    .mail h3
+
+    {
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    color: #e3cdef;
+
+    font-size: 1.5em;
+
+    margin-top: 19px;
+
+    margin-left: 20px;
+
+    }
+
+    .mail
+
+    {
+
+    display: flex;
+
+    margin-left: 20px;
+
+    margin-top: 20px;
+
+    }
+
+    .fa-location-crosshairs
+
+    {
+
+    color: blueviolet;;
+
+    font-size: 1.5em;
+
+    border: 2px solid white;
+
+    border-radius: 50%;
+
+    padding: 10px;
+
+    }
+
+    .address h3
+
+    {
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    color: #e3cdef;
+
+    font-size: 1.5em;
+
+    margin-top: 19px;
+
+    margin-left: 20px;
+
+    }
+
+    .address
+
+    {
+
+    display: flex;
+
+    margin-left: 20px;
+
+    margin-top: 20px;
+
+    }
+
+    .fa-arrow-left
+
+    {
+
+        color: blueviolet;
+
+        font-size: 1.5em;
+
+        margin-left: 35px;
+
+        margin-top: 50px;
+
+
+    }
+
+
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+<div class="container">
+<div class="nav">
+<div class="logo">
+    <a href="index.html"><img src="assets/khadarlogo4.png" width="30%" alt=""></a>
+</div>
+<div class="head">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="letschat.html">Let's Chat</a></li>
+    </ul>
+</div>
+<button onmouseenter="onchatenter()" onmouseleave="onchatleave()"><a href="letschat.html">Let's Chat</a></button>
+<i class="fa-solid fa-bars"></i>
+</div>
+</div>
+<div class="borcontainer">
+<div class="border">
+
+</div>
+</div>
+<div class="detcontainer">
+<div class="details">
+<div class="name">
+    <h1><span>Hy!</span> I Am</h1>
+    <h1>Khadar Khan</h1>
+    <h3>Full Stack Web Designer & Developer</h3>
+    <img src="assets/khadar1.png" alt="" width="100%">
+    <div class="chats">
+    <button class="chat1" onmouseenter="onportfolioenter()" onmouseleave="onportfolioleave()"><a href="portfolio.html">Portfolio</a><i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+    <button class="chat2" onmouseenter="onchatenter()" onmouseleave="onchatleave()"><a href="letschat.html">Let's Chat</a></button>
+    </div>
+    <div class="social">
+    <a href="https://github.com/khadarjks"><i class="fa-brands fa-github"></i></a>
+    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+    <a href=""><i class="fa-brands fa-twitter"></i></a>
+    </div>
+</div>
+<div class="image">
+    <img src="assets/khadar1.png" alt="" width="100%" height="548px">
+</div>
+</div>
+</div>
+
+<script>
+let anchor=document.querySelectorAll("a")[4];
+let button=document.querySelectorAll("button")[0];
+let button1=document.querySelectorAll("button")[1];
+let button2=document.querySelectorAll("button")[2];
+
+function onchatenter()
+{
+    
+    button.style.backgroundColor="blueviolet";
+    // anchor.style.color="black";
+    button.style.border="none";
+
+    button2.style.backgroundColor="blueviolet";
+    // anchor.style.color="black";
+    button2.style.border="none";
+}
+function onchatleave()
+{
+    button.style.backgroundColor="#080031";
+    button.style.border="2px double blueviolet";
+
+    button2.style.backgroundColor="#080031";
+    button2.style.border="2px double blueviolet";
+
+}
+function onportfolioenter()
+{
+    
+    button1.style.backgroundColor="blueviolet";
+    button1.style.border="none";
+
+}
+function onportfolioleave()
+{
+
+    button1.style.backgroundColor="transparent";
+    button1.style.border="2px double blueviolet";
+}
+const hamburger = document.querySelector(".fa-bars");
+const ul = document.querySelector(".head");
+hamburger.addEventListener("click",() => {
+    ul.classList.toggle("active");
+})
+
+hamburger.addEventListener("mouseout",() => {
+    ul.classList.remove("active");
+})
+
+document.querySelectorAll("li").forEach(n => n.addEventListener("click", () => {
+  ul.classList.remove("active");  
+}))
+
+</script>
+</body>
+</html>
