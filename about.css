@@ -142,6 +142,8 @@ display: none;
     border-radius: 50%;
     padding: 10px;
     background-color: #e3cdef;
+    animation-name: rot1;
+    animation-duration: 2s;
 }
 .figmacon
 {
@@ -162,6 +164,8 @@ display: none;
     border-radius: 50%;
     padding: 10px;
     background-color: #e3cdef;
+    animation-name: rot1;
+    animation-duration: 2s;
 }
 .photoshopcon h4
 {
@@ -182,6 +186,8 @@ display: none;
     border-radius: 50%;
     padding: 10px;
     background-color: #e3cdef;
+    animation-name: rot1;
+    animation-duration: 2s;
 }
 .html5con
 {
@@ -209,6 +215,8 @@ display: none;
     border-radius: 50%;
     padding: 10px;
     background-color: #e3cdef;
+    animation-name: rot1;
+    animation-duration: 2s;
 }
 
 .css3con h4
@@ -230,6 +238,8 @@ display: none;
     border-radius: 50%;
     padding: 10px;
     background-color: #e3cdef;
+    animation-name: rot1;
+    animation-duration: 2s;
 }
 
 .bootstrapcon
@@ -251,6 +261,8 @@ display: none;
     border-radius: 50%;
     padding: 10px;
     background-color: #e3cdef;
+    animation-name: rot1;
+    animation-duration: 2s;
 }
 .jscon
 {   
@@ -278,6 +290,8 @@ display: none;
     border-radius: 50%;
     padding: 10px;
     background-color: #e3cdef;
+    animation-name: rot1;
+    animation-duration: 2s;
 }
 .jqcon
 {
@@ -297,6 +311,8 @@ display: none;
     border-radius: 50%;
     padding: 10px;
     background-color: #e3cdef;
+    animation-name: rot1;
+    animation-duration: 2s;
 }
 .reactcon
 {
@@ -316,6 +332,8 @@ display: none;
     border-radius: 50%;
     padding: 10px;
     background-color: #e3cdef;
+    animation-name: rot1;
+    animation-duration: 2s;
 }
 .wpcon
 {
@@ -344,6 +362,8 @@ display: none;
     border-radius: 50%;
     padding: 10px;
     background-color: #e3cdef;
+    animation-name: rot2;
+    animation-duration: 2s;
 }
 .nodecon
 {
@@ -364,6 +384,8 @@ display: none;
     border-radius: 50%;
     padding: 10px;
     background-color: #e3cdef;
+    animation-name: rot3;
+    animation-duration: 2s;
 }
 .mongocon
 {
@@ -474,6 +496,18 @@ display: none;
     text-shadow: 0 0 20px;
     /* transform: all;
     transition-duration: 1s; */
+}
+.phone:hover .popup1
+{
+    visibility:visible;
+}
+.mail:hover .popup2
+{
+    visibility:visible;
+}
+.address:hover .popup3
+{
+    visibility:visible;
 }
 
 .phone h3
@@ -615,30 +649,79 @@ display: none;
     margin-bottom: 30px;
 
 }
+.popup1
+{
+    visibility: hidden;
+    width: 200px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+.popup2
+{
+    visibility: hidden;
+    width: 200px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+.popup3
+{
+    visibility: hidden;
+    width: 250px;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    margin-left: 100px;
+    margin-top: -10px;
+}
 
 
+@keyframes rot1 {
+from
+{
+    transform: rotate(180deg);
+}
+to{
+    transform: rotate(0deg);
+}
+}
 
-/* @keyframes ani {
-    0%
+@keyframes rot2 {
+    from
     {
-        border:0px;
+        transform: translateX(-80px);
     }
-    25%
-    {
-        border:2.5px;
+    to{
+        transform: translateX(0px);
     }
-    50%
-    {
-        border:5px;
-    }
-    75%
-    {
-        border:7.5px;
     }
 
-} */
-
-
+@keyframes rot3 {
+    from
+    {
+        transform: translateX(80px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+    }
 @media screen and (max-width:480px) and (min-width:320px){
 
     .head
@@ -949,29 +1032,11 @@ display: none;
     color: #e3cdef;
     margin-top: 10px;  
 }
-.mysql
-{
-    border: 10px inset blueviolet;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: #e3cdef;
-}
-.mysqlcon
-{
-    margin: auto;
-    text-align: center;
-    width: 35%;
-}
-.mysqlcon h4
-{
-    font-family: 'Josefin Sans', sans-serif;
-    color: #e3cdef;
-    margin-top: 10px;  
-}
+
 .skillset4
 {
-    display: grid;
-    grid-template-columns: repeat(1,auto);
+    display: flex;
+    flex-direction: column;
     grid-row-gap: 20px;
     width: 100%;
     background-color: #080031;
@@ -1484,30 +1549,11 @@ display: none;
     margin-top: 10px;
     font-size: 20px;
 }
-.mysql
-{
-    border: 10px inset blueviolet;
-    border-radius: 50%;
-    padding: 10px;
-    background-color: #e3cdef;
-}
-.mysqlcon
-{
-    margin: auto;
-    text-align: center;
-    width: 30%;
-}
-.mysqlcon h4
-{
-    font-family: 'Josefin Sans', sans-serif;
-    color: #e3cdef;
-    margin-top: 10px;
-    font-size: 20px;
-}
+
 .skillset4
 {
-    display: grid;
-    grid-template-columns: repeat(1,auto);
+    display: flex;
+    flex-direction: column;
     grid-row-gap: 20px;
     width: 100%;
     background-color: #080031;
