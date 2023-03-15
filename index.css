@@ -192,7 +192,9 @@
     font-size: 2.5em;
     position: fixed;
     bottom:50px;
-    right:50px
+    right:50px;
+    /* padding-bottom: 100px; */
+    
 }
 .fa-file-pdf
 {
@@ -356,8 +358,31 @@
         grid-template-columns: repeat(3,auto);
         justify-content: space-evenly;
     }
-
-
+    .fa-file-pdf
+    {
+        color:white;
+        font-size: 2.5em;
+    }
+    .fa-file-pdf
+    {
+        color:white;
+        font-size: 2.5em;
+        position: relative;
+        left:260px;
+        bottom:550px   
+    }
+    .pdf
+    {
+        position: relative;
+    }
+    .popup
+    {
+        position: absolute;
+        bottom: 510px;
+        right: 10px;
+        font-size:xx-small;
+        width: 80px;
+    }
 
 }
 
@@ -483,7 +508,24 @@
         grid-template-columns: repeat(3,auto);
         justify-content: space-evenly;
     }
-
-
+    .fa-file-pdf
+    {
+        color:white;
+        font-size: 2.5em;
+        position: relative;
+        left:660px;
+        bottom:1100px   
+    }
+    .pdf
+    {
+        position: relative;
+    }
+    .popup
+    {
+        position: absolute;
+        bottom: 1150px;
+        right: 40px;
+        font-size:small;
+    }
 
 }
