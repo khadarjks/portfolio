@@ -119,16 +119,16 @@ display: none;
 .skills h2
 {
     font-family: 'Nunito', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
     background-color: #080031;
 }
 .skills h3
 {
     font-family: 'Nunito', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: white;
     text-align: center;
     padding-top: 20px;
@@ -428,268 +428,85 @@ display: none;
     padding-bottom: 30px; 
 }
 
-
-.edex h2
+.ex h2
 {
     font-family: 'Nunito', sans-serif;
     /* font-family: 'Josefin Sans', sans-serif; */
-    font-size: 2em;
+    font-size: 1.5em;
     /* color: #46cdcf; */
     /* color: #4dfbef; */
     color: white;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 25px;
     background-color: #080031;
 }
-.edex h4
+.ex h3
 {
     /* font-family: 'Nunito', sans-serif; */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5em;
-    text-align: center;
+    font-size: 1.3em;
     color: #e3cdef;
-    padding-bottom: 30px;
+    padding-bottom: 8px;
+    background-color: #080031;
+    color: blueviolet;
+    /* padding-left: 100px; */
+}
+.ex h4
+{
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3em;
+    color: #e3cdef;
+    padding-bottom: 40px;
     background-color: #080031;
     /* padding-left: 100px; */
 }
 
-.contcontainer
-{
-    background-color: #080031;
-}
-.cont
-{
-    display: grid;
-    grid-template-columns: repeat(2,auto);   
-}
-.contcontainer h2
+.ed h2
 {
     font-family: 'Nunito', sans-serif;
     /* font-family: 'Josefin Sans', sans-serif; */
-    font-size: 2em;
+    font-size: 1.5em;
+    /* color: #46cdcf; */
+    /* color: #4dfbef; */
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    background-color: #080031;
 }
-
-.fa-phone
-
+.ed h3
 {
-
-    color: blueviolet;;
-
-    font-size: 2em;
-
-    border: 2px solid white;
-
-    border-radius: 50%;
-
-    padding: 15px;
-
-}
-.fa-phone:hover
-
-{
-
-    box-shadow: 0px 0px 15px 2px #c3e8f8;
-    text-shadow: 0 0 20px;
-    /* transform: all;
-    transition-duration: 1s; */
-}
-.phone:hover .popup1
-{
-    visibility:visible;
-}
-.mail:hover .popup2
-{
-    visibility:visible;
-}
-.address:hover .popup3
-{
-    visibility:visible;
-}
-
-.phone h3
-
-{
-
+    /* font-family: 'Nunito', sans-serif; */
     font-family: 'Josefin Sans', sans-serif;
-
+    font-size: 1.3em;
     color: #e3cdef;
-
-    font-size: 1.5em;
-
-    margin-top: 25px;
-
-    margin-left: 20px;
-
-}
-
-.phone
-
-{
-
-    display: flex;
-
-    margin-left: 100px;
-
-    padding-top: 30px;
-
-}
-
-.fa-envelope
-
-{
-
-    color: blueviolet;;
-
-    font-size: 2em;
-
-    border: 2px solid white;
-
-    border-radius: 50%;
-
-    padding: 15px;
-
-}
-.fa-envelope:hover
-{
-    box-shadow: 0px 0px 15px 2px #c3e8f8;
-    text-shadow: 0 0 20px;
-}
-
-.mail h3
-
-{
-
-    font-family: 'Josefin Sans', sans-serif;
-
-    color: #e3cdef;
-
-    font-size: 1.5em;
-
-    margin-top: 25px;
-
-    margin-left: 20px;
-
-}
-
-.mail
-
-{
-
-    display: flex;
-
-
-    margin-top: 30px;
-
-}
-
-.fa-location-crosshairs
-
-{
-
-    color: blueviolet;;
-
-    font-size: 2em;
-
-    border: 2px solid white;
-
-    border-radius: 50%;
-
-    padding: 15px;
-
-}
-.fa-location-crosshairs:hover
-{
-    box-shadow: 0px 0px 15px 2px #c3e8f8;
-    text-shadow: 0 0 20px;
-}
-
-.address h3
-
-{
-
-    font-family: 'Josefin Sans', sans-serif;
-
-    color: #e3cdef;
-
-    font-size: 1.5em;
-
-    margin-top: 25px;
-
-    margin-left: 20px;
-
-}
-
-.address
-
-{
-
-    display: flex;
-
-    margin-left: 100px;
-
-    margin-top: 20px;
-
-}
-
-.fa-arrow-left
-
-{
-
+    padding-bottom: 8px;
     color: blueviolet;
-
-    font-size: 2em;
-
-    margin-left: 120px;
-
-    margin-top: 30px;
-    margin-bottom: 30px;
-
+    background-color: #080031;
+    /* padding-left: 100px; */
 }
-.popup1
+.ed h4
 {
-    visibility: hidden;
-    width: 200px;
-    background-color: whitesmoke;
-    color: black;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    margin-left: 100px;
-    margin-top: -10px;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3em;
+    color: #e3cdef;
+    padding-bottom: 40px;
+    background-color: #080031;
+    /* padding-left: 100px; */
 }
-.popup2
+.edex
 {
-    visibility: hidden;
-    width: 200px;
-    background-color: whitesmoke;
-    color: black;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    margin-left: 100px;
-    margin-top: -10px;
+    display: flex;
+    width: 92%;
+    margin: auto;
+    justify-content: space-between;
 }
-.popup3
+.edexcon
 {
-    visibility: hidden;
-    width: 250px;
-    background-color: whitesmoke;
-    color: black;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    margin-left: 100px;
-    margin-top: -10px;
+    background-color: #080031;
 }
 
 
@@ -772,7 +589,7 @@ to{
     .skills h2
 {
     font-family: 'Nunito', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: white;
     text-align: center;
     padding-top: 30px;
@@ -781,7 +598,7 @@ to{
 .skills h3
 {
     font-family: 'Nunito', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     color: white;
     text-align: center;
     padding-top: 20px;
@@ -1043,189 +860,45 @@ to{
     padding-bottom: 30px; 
 }
 
+.edex
+{
+    display: flex;
+    flex-direction: column;
+    width: 86%;
+    margin: auto;
+    justify-content: space-between;
+}
+.ex h2
+{
+    font-size: 1.3em;
+}
+.ex h3
+{
+    font-size: 1.2em;
+
+}
+.ex h4
+{
+
+    font-size: 1.1em;
+    padding-bottom: 25px;
+}
+.ed h2
+{
+    font-size: 1.3em;
+
+}
+.ed h3
+{
+    font-size: 1.2em;
+
+}
+.ed h4
+{
+    font-size: 1.1em;
+    padding-bottom: 25px;
+}
  
-
-
-
-
-    .edex h2
-    {
-        font-size: 1.5em;
-        color: white;
-        text-align: center;
-    }
-    .edex h4
-{
-    
-    font-size: 1em;    
-}
-    
-    .contcontainer
-
-    {
-
-    background-color: #080031;
-
-    }
-    .cont
-    {
-        display: block;
-    }
-.contcontainer h2
-{
-    font-size: 1.5em;
-    color: white;
-    text-align: center;
-    padding-top: 20px;
-}
-
-    .fa-phone
-
-    {
-
-    color: blueviolet;;
-
-    font-size: 1.5em;
-
-    border: 2px solid white;
-
-    border-radius: 50%;
-
-    padding: 10px;
-
-    }
-
-    .phone h3
-
-    {
-
-    font-family: 'Josefin Sans', sans-serif;
-
-    color: #e3cdef;
-
-    font-size: 16px;
-
-    margin-top: 19px;
-
-    margin-left: 20px;
-
-    }
-
-    .phone
-
-    {
-
-    display: flex;
-
-    margin-left: 20px;
-
-    padding-top: 20px;
-
-    }
-
-    .fa-envelope
-
-    {
-
-    color: blueviolet;;
-
-    font-size: 1.5em;
-
-    border: 2px solid white;
-
-    border-radius: 50%;
-
-    padding: 10px;
-
-    }
-
-    .mail h3
-
-    {
-
-    font-family: 'Josefin Sans', sans-serif;
-
-    color: #e3cdef;
-
-    font-size: 16px;
-
-    margin-top: 19px;
-
-    margin-left: 20px;
-
-    }
-
-    .mail
-
-    {
-
-    display: flex;
-
-    margin-left: 20px;
-
-    margin-top: 20px;
-
-    }
-
-    .fa-location-crosshairs
-
-    {
-
-    color: blueviolet;;
-
-    font-size: 1.5em;
-
-    border: 2px solid white;
-
-    border-radius: 50%;
-
-    padding: 10px;
-
-    }
-
-    .address h3
-
-    {
-
-    font-family: 'Josefin Sans', sans-serif;
-
-    color: #e3cdef;
-
-    font-size: 16px;
-
-    margin-top: 19px;
-
-    margin-left: 20px;
-
-    }
-
-    .address
-
-    {
-
-    display: flex;
-
-    margin-left: 20px;
-
-    margin-top: 20px;
-
-    }
-
-    .fa-arrow-left
-
-    {
-
-        color: blueviolet;
-
-        font-size: 1.5em;
-
-        margin-left: 35px;
-
-        margin-top: 50px;
-
-
-    }
-
 
 }
 
@@ -1279,7 +952,7 @@ to{
     .skills h2
 {
     font-family: 'Nunito', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: white;
     text-align: center;
     padding-top: 30px;
@@ -1288,7 +961,7 @@ to{
 .skills h3
 {
     font-family: 'Nunito', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: white;
     text-align: center;
     padding-top: 20px;
@@ -1560,188 +1233,16 @@ to{
     padding-bottom: 30px; 
 }
 
- 
-
-
-
-
-    .edex h2
-    {
-        font-size: 2em;
-        color: white;
-        text-align: center;
-    }
-    .edex h4
+.edex
 {
-    
-    font-size: 1.5em;    
-}
-    
-    .contcontainer
-
-    {
-
-    background-color: #080031;
-
-    }
-    .cont
-    {
-        display: block;
-    }
-.contcontainer h2
-{
-    font-size: 2em;
-    color: white;
-    text-align: center;
-    padding-top: 20px;
-}
-
-    .fa-phone
-
-    {
-
-    color: blueviolet;;
-
-    font-size: 1.5em;
-
-    border: 2px solid white;
-
-    border-radius: 50%;
-
-    padding: 10px;
-
-    }
-
-    .phone h3
-
-    {
-
-    font-family: 'Josefin Sans', sans-serif;
-
-    color: #e3cdef;
-
-    font-size: 1.5em;
-
-    margin-top: 19px;
-
-    margin-left: 20px;
-
-    }
-
-    .phone
-
-    {
-
     display: flex;
-
-    margin-left: 20px;
-
-    padding-top: 20px;
-
-    }
-
-    .fa-envelope
-
-    {
-
-    color: blueviolet;;
-
-    font-size: 1.5em;
-
-    border: 2px solid white;
-
-    border-radius: 50%;
-
-    padding: 10px;
-
-    }
-
-    .mail h3
-
-    {
-
-    font-family: 'Josefin Sans', sans-serif;
-
-    color: #e3cdef;
-
-    font-size: 1.5em;
-
-    margin-top: 19px;
-
-    margin-left: 20px;
-
-    }
-
-    .mail
-
-    {
-
-    display: flex;
-
-    margin-left: 20px;
-
-    margin-top: 20px;
-
-    }
-
-    .fa-location-crosshairs
-
-    {
-
-    color: blueviolet;;
-
-    font-size: 1.5em;
-
-    border: 2px solid white;
-
-    border-radius: 50%;
-
-    padding: 10px;
-
-    }
-
-    .address h3
-
-    {
-
-    font-family: 'Josefin Sans', sans-serif;
-
-    color: #e3cdef;
-
-    font-size: 1.5em;
-
-    margin-top: 19px;
-
-    margin-left: 20px;
-
-    }
-
-    .address
-
-    {
-
-    display: flex;
-
-    margin-left: 20px;
-
-    margin-top: 20px;
-
-    }
-
-    .fa-arrow-left
-
-    {
-
-        color: blueviolet;
-
-        font-size: 1.5em;
-
-        margin-left: 35px;
-
-        margin-top: 50px;
+    flex-direction: column;
+    width: 86%;
+    margin: auto;
+    justify-content: space-between;
+} 
 
 
-    }
 
 
 }

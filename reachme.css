@@ -1,0 +1,513 @@
+*
+{
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+body
+
+{
+
+    position: relative;
+
+    margin: auto;
+
+    width: 25%;
+
+    background-color: rgb(19, 18, 18);;
+
+}
+
+.chatlist
+
+{
+
+position: absolute;
+
+top: 150px;
+
+border: 2px solid whitesmoke;
+
+border-radius: 10px;
+
+margin: auto;
+
+background-color: white;
+
+padding: 20px 50px 60px 40px;
+
+width: 70%;
+
+}
+
+.chatlist a
+
+{
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+.conselect
+
+{
+
+    border-bottom: 2px solid black;
+
+    padding-bottom: 5px;
+
+}
+
+.select
+
+{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 2rem;
+
+    text-align: center;
+
+    margin-left: 55px;
+
+}
+
+.fa-xmark
+
+{
+
+    padding-left: 70px;
+
+    font-size: 1.8rem;
+
+    cursor: pointer;
+
+}
+
+.whatsapp
+
+{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 2rem;
+
+    margin-top: 20px;
+
+}
+
+.fa-whatsapp
+
+{
+
+    margin-right: 25px;
+
+    font-size: 2rem;
+
+    color:#25D366;
+
+}
+
+.mail
+
+{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 2em;
+
+    margin-top: 20px;
+
+}
+
+.fa-envelope
+
+{
+
+    margin-right: 25px;
+
+    font-size: 2rem;
+
+    /* color: #c6c6c6; */
+
+    color: #b23121;
+
+}
+
+.phone
+
+{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 2em;
+
+    margin-top: 20px;
+
+}
+
+.fa-phone
+
+{
+
+    margin-right: 25px;
+
+    font-size: 2rem;
+
+    color: #4267B2;    ;
+
+}
+
+.location
+
+{
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 2em;
+
+    margin-top: 20px;
+
+}
+
+.fa-location-crosshairs
+
+{
+
+    margin-right: 25px;
+
+    font-size: 2rem;
+
+    /* color: #dd2a7b; */
+
+    color: red;
+
+}
+
+
+@media screen and (max-width:480px) and (min-width:320px){
+
+    body
+
+    {
+
+    position: block;
+
+    width: 80%;
+
+    background-color: black;
+
+    margin: auto;
+
+    }
+
+
+
+    .chatlist
+
+    {
+
+    position: block;
+
+    top: 100px;
+
+    left: 10px;
+
+    border: 2px solid whitesmoke;
+
+    border-radius: 10px;
+
+    background-color: white;
+
+    /* padding: 10px 80px 20px 80px; */
+
+    width: 60%;
+
+    }
+
+    .select
+
+    {
+
+        font-family: 'Open Sans', sans-serif;
+
+        font-size: 1.5rem;
+
+        margin-left: 0px;
+
+    }
+
+    .fa-xmark
+
+    {
+
+        padding-left: 60px;
+
+        font-size: 1.8rem;
+
+        cursor: pointer;
+
+    }
+
+    .whatsapp
+
+    {
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 1.3rem;
+
+    margin-top: 20px;
+
+    }
+
+    .fa-whatsapp
+
+    {
+
+    margin-right: 25px;
+
+    font-size: 1.6rem;
+
+    color:#25D366;
+
+    }
+
+    .mail
+
+    {
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 1.3em;
+
+    margin-top: 20px;
+
+    }
+
+    .fa-envelope
+
+    {
+
+    margin-right: 25px;
+
+    font-size: 1.6rem;
+
+    /* color: #c6c6c6; */
+
+    color: #b23121;
+
+    }
+
+    .phone
+
+    {
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 1.3em;
+
+    margin-top: 20px;
+
+    }
+
+    .fa-phone
+
+    {
+
+    margin-right: 25px;
+
+    font-size: 1.6rem;
+
+    color: #4267B2;
+
+    }
+
+    .location
+
+    {
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 1.3em;
+
+    margin-top: 20px;
+
+    }
+
+    .fa-location-crosshairs
+
+    {
+
+    margin-right: 25px;
+
+    font-size: 1.6rem;
+
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:481px){
+
+    body
+
+    {
+
+    position: block;
+
+    width: 80%;
+
+    background-color: black;
+
+    margin: auto;
+
+    }
+
+
+
+    .chatlist
+
+    {
+
+    position: block;
+
+    top: 270px;
+
+    left: 80px;
+
+    border: 2px solid whitesmoke;
+
+    border-radius: 10px;
+
+    background-color: white;
+
+    /* padding: 10px 80px 20px 80px; */
+
+    width: 60%;
+
+    }
+
+    .select
+
+    {
+
+        font-family: 'Open Sans', sans-serif;
+
+        font-size: 1.5rem;
+
+        margin-left: 0px;
+
+    }
+
+    .fa-xmark
+
+    {
+
+        padding-left: 250px;
+
+        font-size: 1.8rem;
+
+        cursor: pointer;
+
+    }
+
+    .whatsapp
+
+    {
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 1.3rem;
+
+    margin-top: 20px;
+
+    }
+
+    .fa-whatsapp
+
+    {
+
+    margin-right: 25px;
+
+    font-size: 1.6rem;
+
+    color:#25D366;
+
+    }
+
+    .mail
+
+    {
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 1.3em;
+
+    margin-top: 20px;
+
+    }
+
+    .fa-envelope
+
+    {
+
+    margin-right: 25px;
+
+    font-size: 1.6rem;
+
+    /* color: #c6c6c6; */
+
+    color: #b23121;
+
+    }
+
+    .phone
+
+    {
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 1.3em;
+
+    margin-top: 20px;
+
+    }
+
+    .fa-phone
+
+    {
+
+    margin-right: 25px;
+
+    font-size: 1.6rem;
+
+    color: #4267B2;
+
+    }
+
+    .location
+
+    {
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 1.3em;
+
+    margin-top: 20px;
+
+    }
+
+.fa-location-crosshairs
+
+    {
+
+    margin-right: 25px;
+
+    font-size: 1.6rem;
+
+    }
+}

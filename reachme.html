@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="reachme.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="chatlist">
+        <div class="conselect">
+        <div class="select">
+        <label>Select</label><i class="fa-solid fa-xmark"></i>
+        </div>
+        </div>
+        <div class="whatsapp">
+            <a href="https://wa.me/9094234657"><i class="fa-brands fa-whatsapp"></i></a><label><a href="https://wa.me/9094234657">Whatsapp</a></label>
+        </div>
+        <div class="mail">
+        <a href="mailto:khadarkhanjks95@gmail.com"><i class="fa-regular fa-envelope"></i></a><label><a href="mailto:khadarkhanjks95@gmail.com">Mail</a></label>
+        </div>
+        <div class="phone">
+        <a href="tel:+919094234657"><i class="fa-solid fa-phone"></i></a><label><a href="tel:+919094234657">Call</a></label>
+        </div>
+        <div class="location">
+        <a href="https://goo.gl/maps/e7oxZwrVdtC6BnMd9"><i class="fa-solid fa-location-crosshairs"></i></a><label><a href="https://goo.gl/maps/e7oxZwrVdtC6BnMd9">Location</a></label>
+        </div>
+    </div>
+    <script>
+        let icon=document.querySelector(".fa-xmark");
+        icon.addEventListener("click",exit);
+        function exit()
+        {
+
+            history.back();
+            
+        }
+    </script>
+
+</body>
+</html>

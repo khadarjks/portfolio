@@ -320,7 +320,7 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-bottom: -5px;
+        margin-bottom: -15px;
         margin-top: -10px;
     }
     .details
@@ -355,23 +355,15 @@
         
         text-align: center;
         display: grid;
-        grid-template-columns: repeat(3,auto);
-        justify-content: space-evenly;
+        grid-template-columns: repeat(2,auto);
     }
     .fa-file-pdf
     {
         color:white;
         font-size: 2.5em;
     }
-    .fa-file-pdf
-    {
-        color:white;
-        font-size: 2.5em;
-        position: relative;
-        left:260px;
-        bottom:550px   
-    }
-    .pdf
+
+    /* .pdf
     {
         position: relative;
     }
@@ -382,6 +374,14 @@
         right: 10px;
         font-size:xx-small;
         width: 80px;
+    } */
+    .fa-file-pdf
+    {
+    color:white;
+    font-size: 2.5em;
+    position: fixed;
+    bottom:17px;
+    right:15px;
     }
 
 }
@@ -505,27 +505,15 @@
         
         text-align: center;
         display: grid;
-        grid-template-columns: repeat(3,auto);
-        justify-content: space-evenly;
+        grid-template-columns: repeat(2,auto);
     }
     .fa-file-pdf
     {
-        color:white;
-        font-size: 2.5em;
-        position: relative;
-        left:660px;
-        bottom:1100px   
-    }
-    .pdf
-    {
-        position: relative;
-    }
-    .popup
-    {
-        position: absolute;
-        bottom: 1150px;
-        right: 40px;
-        font-size:small;
+    color:white;
+    font-size: 2.5em;
+    position: fixed;
+    bottom:17px;
+    right:15px;
     }
 
 }
