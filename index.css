@@ -224,7 +224,7 @@
     right: 10px;
     font-size:small;
 }
-.popup::before
+.popup::after
 {
 content: "";
 position: absolute;
@@ -394,14 +394,14 @@ border-left: 13px solid transparent;
     .popup
     {
         visibility:visible;
-        width: 100px;
+        width: 110px;
         background-color: whitesmoke;
         color: black;
         text-align: center;
         border-radius: 6px;
         padding: 5px 0;
         position: fixed;
-        bottom: 75px;
+        bottom: 80px;
         right: 5px;
         font-size:12px;
         /* position: absolute;
@@ -418,7 +418,7 @@ border-left: 13px solid transparent;
     bottom:17px;
     right:15px;
     }
-    .popup::before
+    .popup::after
     {
     content: "";
     position: absolute;
@@ -565,19 +565,19 @@ border-left: 13px solid transparent;
     .popup
     {
         visibility:visible;
-        width: 100px;
+        width: 110px;
         background-color: whitesmoke;
         color: black;
         text-align: center;
         border-radius: 6px;
         padding: 5px 0;
         position: fixed;
-        bottom: 75px;
+        bottom: 80px;
         right: 5px;
         font-size:12px;
         
     }
-    .popup::before
+    .popup::after
     {
     content: "";
     position: absolute;
