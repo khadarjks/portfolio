@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Home - Responsive Design</title>
     <link rel="stylesheet" href="index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,7 +55,7 @@
     </div>
     <div class="social">
     <a href="https://github.com/khadarjks"><i class="fa-brands fa-github"></i></a>
-    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://www.linkedin.com/in/khadar-khan-896679272/"><i class="fa-brands fa-linkedin"></i></a>
     </div>
 </div>
 <div class="image">
@@ -73,6 +73,7 @@ let anchor=document.querySelectorAll("a")[4];
 let button=document.querySelectorAll("button")[0];
 let button1=document.querySelectorAll("button")[1];
 let button2=document.querySelectorAll("button")[2];
+let popup = document.querySelector(".popup");
 
 function onchatenter()
 {
@@ -111,15 +112,34 @@ const hamburger = document.querySelector(".fa-bars");
 const ul = document.querySelector(".head");
 hamburger.addEventListener("click",() => {
     ul.classList.toggle("active");
+    popup.classList.toggle("popupshow");
 })
 
 hamburger.addEventListener("mouseout",() => {
     ul.classList.remove("active");
+    popup.style.display="block";
 })
 
 document.querySelectorAll("li").forEach(n => n.addEventListener("click", () => {
-  ul.classList.remove("active");  
+  ul.classList.remove("active");
 }))
+
+
+let popupopc = document.querySelector(".popupopc")
+    
+    
+    window.addEventListener("scroll",function(){
+        let value=window.scrollY;
+        if (value!=0)
+        {
+            popup.classList.add("popupopc");
+        }
+        else
+        {
+            popup.classList.remove("popupopc");
+        }
+     
+    })
 
 </script>
 </body>

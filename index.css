@@ -224,6 +224,35 @@
     right: 10px;
     font-size:small;
 }
+.popup::before
+{
+content: "";
+position: absolute;
+right:37%;
+top:40px;
+width: 0;
+height: 0;
+border-right: 13px solid transparent;
+border-top: 11px solid whitesmoke;
+border-left: 13px solid transparent;
+}
+.popupshow
+{
+    display:none;
+}
+.popupopc
+{
+    opacity:0;
+    transition: all;
+    transition-duration: 2s;
+}
+.popupopcr
+{
+    opacity:1;
+    transition: all;
+    transition-duration: 2s;
+}
+
 @keyframes rot1 {
     from
     {
@@ -357,24 +386,30 @@
         display: grid;
         grid-template-columns: repeat(2,auto);
     }
-    .fa-file-pdf
-    {
-        color:white;
-        font-size: 2.5em;
-    }
-
-    /* .pdf
+/* 
+    .pdf
     {
         position: relative;
-    }
+    } */
     .popup
     {
-        position: absolute;
+        visibility:visible;
+        width: 100px;
+        background-color: whitesmoke;
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: fixed;
+        bottom: 80px;
+        right: 5px;
+        font-size:12px;
+        /* position: absolute;
         bottom: 510px;
         right: 10px;
         font-size:xx-small;
-        width: 80px;
-    } */
+        width: 80px; */
+    }
     .fa-file-pdf
     {
     color:white;
@@ -382,6 +417,18 @@
     position: fixed;
     bottom:17px;
     right:15px;
+    }
+    .popup::before
+    {
+    content: "";
+    position: absolute;
+    right:15%;
+    top:40px;
+    width: 0;
+    height: 0;
+    border-right: 13px solid transparent;
+    border-top: 11px solid whitesmoke;
+    border-left: 13px solid transparent;
     }
 
 }
@@ -515,5 +562,33 @@
     bottom:17px;
     right:15px;
     }
+    .popup
+    {
+        visibility:visible;
+        width: 100px;
+        background-color: whitesmoke;
+        color: black;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        position: fixed;
+        bottom: 80px;
+        right: 5px;
+        font-size:12px;
+        
+    }
+    .popup::before
+    {
+    content: "";
+    position: absolute;
+    right:15%;
+    top:40px;
+    width: 0;
+    height: 0;
+    border-right: 13px solid transparent;
+    border-top: 11px solid whitesmoke;
+    border-left: 13px solid transparent;
+    }
+
 
 }
