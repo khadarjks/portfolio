@@ -117,7 +117,7 @@ hamburger.addEventListener("click",() => {
 
 hamburger.addEventListener("mouseout",() => {
     ul.classList.remove("active");
-    popup.style.display="block";
+    popup.classList.remove("popupshow");
 })
 
 document.querySelectorAll("li").forEach(n => n.addEventListener("click", () => {
