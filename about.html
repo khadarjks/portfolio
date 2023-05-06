@@ -176,6 +176,11 @@
             document.querySelectorAll("li").forEach(n => n.addEventListener("click", () => {
             ul.classList.remove("active");  
             }))
+            
+             window.addEventListener("scroll",function()
+            {    
+            ul.classList.remove("active");
+            })
 
         </script>
         
